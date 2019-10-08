@@ -331,7 +331,7 @@ p.descr, .formder
 	width: 200px;
 	border-radius: 50%;
 	height: 200px;
-	border:3px solid #46b7b4;
+	border:3px solid #0087E0;
 }
 .fila{			
 	display: inline-block;	
@@ -370,6 +370,10 @@ p.descr, .formder
 	}
 .galeria {
 	text-align:center;
+}
+.historia a {
+	color:#0087E0;
+	text-decoration:none;
 }
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
