@@ -84,16 +84,16 @@
 	<form>	
 		<div class="formizq">				
 			<fieldset>
-				<legend>Datos Personales:</legend><br>
+				<legend>Datos Personales:</legend>
 				<p>Nombre:
 				<input required type="text" name="nombre">
 				Apellidos:
-				<input type="text" name="apellidos"></p><br>
+				<input type="text" name="apellidos"></p>
 				<p>E-mail de contacto:
-				<input required type="email" name="correo">
-				¿Estudia ya en la academia?:
-				<input type="radio" name="estudiante" value="Si">Sí
-				<input type="radio" name="estudiante" value="No">No</p><br>
+				<input required type="email" name="correo"></p>
+				<p>¿Estudia ya en la academia?: &nbsp;
+				<input type="radio" name="estudiante" value="Si">Sí &nbsp;
+				<input type="radio" name="estudiante" value="No">No</p>
 				<p>Selecciona rango de edad:
 				<select name="edad" id="edad">
 					<option value="<18"> menor de 18 años</option>
@@ -101,9 +101,9 @@
 					<option value="25-35">entre 25 y 35 años</option>
 					<option value="35-50">entre 35 y 50 años</option>
 					<option value=">50">mayor de 50 años</option>
-				</select>
-				Teléfono:
-				<input type="text" name="telefono"></p><br>
+				</select></p>
+				<p>Teléfono:
+				<input type="text" name="telefono"></p>
 			</fieldset>
 		</div>
 		<div class="formder">
@@ -116,17 +116,19 @@
 			</fieldset>
 		</div>
 		<div class="formizq">
-			<p>Escriba su duda o sugerencia:</p>
-			<textarea required name="dudas" rows="13" cols="92" ></textarea>
-			<p id="boton" style="text-align:center"><input type="submit" value="Enviar"><input type="reset" value="Borrar"></p>
+			<fieldset>
+				<legend>Escriba su duda o sugerencia:</legend>
+				<textarea required name="dudas" rows="13" cols="92" style="resize:none; border:none; border-radius:50px;"  ></textarea>
+			</fieldset>	
+			<p id="boton" style="text-align:center"><input type="submit" value="Enviar">&nbsp &nbsp <input type="reset" value="Borrar"></p>
 		</div>
 		
 		<div class="formder">		
 			<fieldset>
-				<legend>Horarios:</legend><br>				
-				<p>Lunes-Viernes: 9:00 - 14:00 y 17:00 a 22:00</p><br>
-				<p>Sábados: 9:00 - 15:00 (Tardes Cerrado)</p><br>
-				<p>Domingos: Cerrado</p><br>
+				<legend>Horarios:</legend>			
+				<p>Lunes-Viernes: 9:00 - 14:00 y 17:00 a 22:00</p>
+				<p>Sábados: 9:00 - 15:00 (Tardes Cerrado)</p>
+				<p>Domingos: Cerrado</p>
 			</fieldset>
 		</div>
 	</form>

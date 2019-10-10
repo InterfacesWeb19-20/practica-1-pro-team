@@ -255,6 +255,11 @@ hr{
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+fieldset
+{
+	border-color: #0087E0;
+	border-radius: 50px; 
+}
 .formizq
 {
 	float:left;
@@ -262,11 +267,13 @@ hr{
 	margin-left: 10%;
 	margin-top: 7%;
 	text-align: left;
-	
-	
+	text-align: center;
 }
 
-
+.formizq p
+{
+	padding: 3%;
+}	
 .formder 
 {
 	float:right;
@@ -275,6 +282,11 @@ hr{
 	margin-top: 5%;
 	width: 30%;
 }
+
+.formder p
+{
+	padding: 3%;
+}	
 
 .contac
 {	margin-top: 15px;
