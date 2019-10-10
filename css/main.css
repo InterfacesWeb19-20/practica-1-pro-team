@@ -317,48 +317,40 @@ p.descr, .formder
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .galeria img {		
-	width: 200px;
+	width: 12.5em;
 	border-radius: 50%;
-	height: 200px;
+	height: 12.5em;
 	border:3px solid #0087E0;
 }
 .fila{			
 	display: inline-block;	
-	margin: 4em 5em;		
-	}
+	margin: 4em 2em;		
+}
 .salto{
 	clear:both;
-	}
+}
 .historia {		
-	padding: 7% 20%;		
-	text-align:left;	
+	padding: 5% 20%;				
 	
 }	
 .htitulo {
 	font-size:20px;
 	line-height : 75px;
-	}
-.htxt p {	
-	font-size:22px;
-	margin-bottom: 50px;
 }
-.gtxt {	
-	font-size:22px;
+.htxt p {	
+	margin-bottom: 50px;
 }
 .hsubti {
 	font-size:22px;
 	line-height : 75px;
-	}
-.ptitulo {
-	text-align:center;
-	font-size:24px;
-	line-height: 75px;
-	}
+}
+
 .gprofesores {
 	background-color: #f7f7f7
-	}
+}
 .galeria {
 	text-align:center;
+	
 }
 .historia a {
 	color:#0087E0;
