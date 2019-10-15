@@ -475,56 +475,79 @@ p.descr, .formder
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-.Bienvenida
+
+
+.Bienvenida 
 {	
-	font-size:20px;
+	font-size:22px;
 	text-align: center;
+	padding-bottom: 2em;
+	width: 60%;
+	padding-left: 20%;
+	
 }
 body
 {
-	font-family: openSerif;
-	font-size:22px;
+	font-family: openSerif, Helvetica, sans-serif;
+	font-size: 22px;
 }
-.novedades h1
+#novedades
 {
+	padding-top: 1em;
 	text-align: center;
-	font-size: 27px;
-}
-.contenedor
-{
-	width: 100%;
-}
-.novedades
-{
-	
-	margin-left:45px;
-	margin-right:45px;
-	float:left;
-	width: 50%;
+	font-size: 28px;
 	
 }
-.ofertas
+.anuncios
 {
-	float:right;
-	width: 45%;
-	text-align: center;
-}
-.izq
-{
-	float: left;
-	width:40%;
-}
-.derc
-{
-	float: right;
-	width:40%;
-}
-.fotoini
-{
+	background-color: #f7f7f7;
 	
-	width: 350px;
-	height: 250px;
+}
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+	width: 80%;
+	padding-left: 10%;
+	
+}
+.flex-container div.flex
+{
+    flex: auto;
+    width: 25em;
+    margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-left: 1em;
+	padding-right:1em;
+	text-align:center;
+	font-size:19px;
+		
+}
 
+.anuncios .flex-container .flex a:link
+{
+	color:#0087E0;
+	text-decoration: none;
+}
+.anuncios .flex-container .flex a:hover
+{
+	color:#0087E0;
+}
+.anuncios .flex-container .flex a:visited
+{
+	color:#000;
+}
+.anuncios .flex-container .flex a:visited:hover
+{
+	color:#0087E0;
+}
+.flex-container div.flex img
+{ 
+	border-radius: 2em;
+    width: 22em; 
+    height: 14em;
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
