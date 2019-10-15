@@ -369,58 +369,70 @@ p.descr, .formder
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-.Bienvenida
-{	
-	font-size:20px;
-	text-align: center;
-}
-body
-{
-	font-family: openSerif;
-	font-size:22px;
-}
-.novedades h1
-{
-	text-align: center;
-	font-size: 27px;
-}
-.contenedor
-{
-	width: 100%;
-}
-.novedades
-{
-	
-	margin-left:45px;
-	margin-right:45px;
-	float:left;
-	width: 50%;
-	
-	
-}
-.ofertas
-{
-	float:right;
-	width: 45%;
-	text-align: center;
-}
-.izq
-{
-	float: left;
-	width:40%;
-}
-.derc
-{
-	float: right;
-	width:40%;
-}
-.fotoini
-{
-	
-	width: 350px;
-	height: 250px;
 
+.Bienvenida 
+{	
+	font-size:22px;
+	text-align: center;
+	padding-bottom: 2em;
+	width: 60%;
+	padding-left: 20%;
+	
 }
+
+#novedades
+{
+	padding-top: 1em;
+	text-align: center;
+	font-size: 28px;
+	
+}
+.anuncios
+{
+	background-color: #f7f7f7;
+	
+}
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+	width: 80%;
+	padding-left: 10%;
+	
+}
+.flex-container div.flex
+{
+    flex: auto;
+    width: 25em;
+    margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-left: 1em;
+	padding-right:1em;
+	text-align:center;
+	font-size:19px;
+		
+}
+a:link
+{
+	color:#000;
+}
+a:hover
+{
+	color:#0087E0;
+}
+a:visited
+{
+	color:#000;
+}
+.flex-container div.flex img
+{ 
+	border-radius: 2em;
+    width: 22em; 
+    height: 14em;
+}
+
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
