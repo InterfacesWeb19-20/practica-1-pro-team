@@ -370,6 +370,7 @@ p.descr, .formder
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
+
 .Bienvenida 
 {	
 	font-size:22px;
@@ -379,7 +380,11 @@ p.descr, .formder
 	padding-left: 20%;
 	
 }
-
+body
+{
+	font-family: openSerif, Helvetica, sans-serif;
+	font-size: 22px;
+}
 #novedades
 {
 	padding-top: 1em;
@@ -414,17 +419,23 @@ p.descr, .formder
 	font-size:19px;
 		
 }
-a:link
+
+.anuncios .flex-container .flex a:link
 {
-	color:#000;
+	color:#0087E0;
+	text-decoration: none;
 }
-a:hover
+.anuncios .flex-container .flex a:hover
 {
 	color:#0087E0;
 }
-a:visited
+.anuncios .flex-container .flex a:visited
 {
 	color:#000;
+}
+.anuncios .flex-container .flex a:visited:hover
+{
+	color:#0087E0;
 }
 .flex-container div.flex img
 { 
