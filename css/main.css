@@ -370,7 +370,7 @@ hr{
 fieldset
 {
 	border-color: #0087E0;
-	border-radius: 50px; 
+	border-radius: 50px;
 }
 .formizq
 {
@@ -402,9 +402,17 @@ fieldset
 
 #boton input
 {
-	width:150px;
+	width:140px;
 	height:50px;
-	border-radius: 50%;
+	border-radius: 15px;
+	border: 2px solid #0087E0;
+	background: white;
+}
+
+#boton input:hover
+{
+	background: #0087E0;
+	color: white;
 }
 
 .contac
