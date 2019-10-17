@@ -43,6 +43,7 @@ header h1 {
 	padding-top: 0.8em;
 	float: left;
 	padding-left: 0.6em;
+	width: 30%;
 }
 
 .header2 {
@@ -55,6 +56,11 @@ header h1 {
 	z-index: 99;
 	box-shadow: 0 0 10px #444;
 
+}
+
+#flag-england{
+
+	padding-right: 15px;
 }
 
 /* Nav CSS */
